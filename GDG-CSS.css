@@ -69,10 +69,10 @@
 /*----------------------------------------small header----------------------------------------*/
 
 /*----------------------------------------big header----------------------------------------*/
-#home_pic{
+/*#home_pic{
     width: 60px;
     height: 55px;
-    margin-top: 8px;
+   margin-top: 8px;
     margin-left: 490px;
     opacity: 0.4;
     filter: alpha(opacity=40);
@@ -85,7 +85,7 @@
  	width: 65px;
     height: 57px;
     margin-top: 9px;
-    margin-left: 60px;
+   margin-left: 60px;
     opacity: 0.4;
     filter: alpha(opacity=40);    
 }
@@ -118,8 +118,8 @@
     animation-delay: 2s;
     animation-iteration-count: 3;
     animation-direction: alternate;
-}
-#about_pic{
+}*/
+/*#about_pic{
     width: 60px;
     height: 100px;
 	padding-bottom: 50px;
@@ -141,13 +141,13 @@
     padding-bottom: 50px;
     opacity: 0.4;
     filter: alpha(opacity=40); 
-}
+}*/
 #contact_pic:hover{
     opacity: 1.0;
     filter: alpha(opacity=100);
 }
 
-#google_pic{
+/*#google_pic{
     width: 60px;
     height: 55px;
 	margin-top: 30px;
@@ -182,7 +182,103 @@
 #cale_pic:hover{
 	opacity: 1.0;
     filter: alpha(opacity=100);
+}*/
+section
+{
+ 
+    //background-image:url(images/header-background.png);
+    background-image: url(images/header-background.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-size:100% 350px;
+    height:350px;
+   // max-width: 100px;
+    margin-top: 20px;
+    
 }
+
+
+table
+{
+  margin-top: 75px;
+    margin-left: 32%;
+}
+ 
+#home_pic{
+    width: 60px;
+    height: 55px;
+    border: 2px;
+    border-color: black;
+    
+  
+}
+
+
+#team_pic{
+ 	width: 65px;
+    height: 57px;
+  
+    margin-left: 135px;
+     
+    
+}
+
+#events_pic{
+    width: 65px;
+    height: 53px;
+
+}
+
+#gdg_pic{
+    width: 360px;
+    height: 100px;
+  
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+#about_pic{
+    width: 60px;
+    height: 100px;
+	padding-bottom: 50px;
+ 
+}
+
+#contact_pic{
+    width: 60px;
+    height: 100px;
+    /*margin-top: -170px;*/
+	
+   padding-bottom: 50px;
+  
+}
+
+
+#google_pic{
+    width: 60px;
+    height: 55px;
+
+}
+
+#techn_pic{
+    width: 65px;
+    height: 55px;
+
+   margin-left: 135px;
+ 
+}
+
+#cale_pic{
+    width: 65px;
+    height: 53px;
+	
+}
+
 /*----------------------------------------big header----------------------------------------*/
 /*=====================Header=====================*/
 
